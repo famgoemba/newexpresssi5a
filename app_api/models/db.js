@@ -4,7 +4,7 @@ const connectDB = async () => {
     try {
         await mongoose.connect(
             // ambil drivers di mongodb.com
-            "mongodb+srv://rachmat:11111111@cluster0.cltawz3.mongodb.net/si5apaw2?retryWrites=true&w=majority&appName=Cluster0"
+            "mongodb+srv://Bryan:Bryan@famgoemba.w60huxf.mongodb.net/si5apaw2?retryWrites=true&w=majority&appName=Famgoemba"
         );
         console.log("MongoDB connected.");
     } catch (error) {
