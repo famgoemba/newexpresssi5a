@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const beritaController = require('../controllers/beritaController');
+const beritaController = require('../controllers/beritaControllers');
 
 // Endpoint GET dan POST
 router.get('/', beritaController.getAllBerita);

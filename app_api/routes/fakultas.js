@@ -4,8 +4,9 @@ const router = express.Router();
 // impor FakultasController
 const FakultasController = require("../controllers/fakultasController")
 
-// route GET fakultas
+// route fakultas
 router.get("/", FakultasController.getAllFakultas)
+router.post("/", FakultasController.createfakultas)
 
 // expor module
 module.exports = router
