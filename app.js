@@ -11,8 +11,8 @@ var cors = require('cors')
 // route app_api
 const fakultasRouterAPI = require("./app_api/routes/fakultas")
 const beritaRouterAPI = require("./app_api/routes/berita");
-// const prodiRouterAPI = require("./app_api/routes/prodi");
-// const mahasiswaRouterAPI = require("./app_api/routes/mahasiswa");
+const prodiRouterAPI = require("./app_api/routes/prodi");
+const mahasiswaRouterAPI = require("./app_api/routes/mahasiswa");
 
 //route app_derver
 var indexRouter = require('./app_server/routes/index');
